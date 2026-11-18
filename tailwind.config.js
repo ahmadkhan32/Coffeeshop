@@ -21,8 +21,9 @@ export default {
         }
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
-        display: ['Impact', 'Haettenschweiler', 'Franklin Gothic Bold', 'sans-serif'],
+        sans: ['Plus Jakarta Sans', 'Inter', 'system-ui', 'sans-serif'],
+        serif: ['Cormorant Garamond', 'Georgia', 'serif'],
+        display: ['Syne', 'Plus Jakarta Sans', 'sans-serif'],
       },
     },
   },
