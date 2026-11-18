@@ -12,7 +12,7 @@ export default function ProductSlider() {
   const [added, setAdded] = useState(false);
   const dispatch = useDispatch();
 
-  const currentProduct = products[currentIndex];
+  const currentProduct = products[currentIndex] || products[0];
 
   const handleNext = () => {
     setCurrentIndex((prev) => (prev + 1) % products.length);
@@ -31,7 +31,7 @@ export default function ProductSlider() {
   };
 
   return (
-    <section className="py-24 bg-[#090909] border-b border-[#1E1E1E] overflow-hidden select-none">
+    <section className="py-20 sm:py-24 bg-[#090909] border-b border-[#1E1E1E] overflow-hidden select-none">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center">
         
         {/* CENTERED HEADER (Alignment from center) */}
@@ -78,31 +78,103 @@ export default function ProductSlider() {
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
             
-            {/* Can Showcase Centered */}
+            {/* CAN SHOWCASE CENTERED WITH CONTINUOUSLY MOVING COFFEE BEANS & CONTINUOUSLY MOVING CAN */}
             <div className="lg:col-span-6 flex flex-col items-center justify-center relative">
-              <div className="relative w-full max-w-sm h-72 sm:h-96 flex items-center justify-center">
-                <AnimatePresence mode="wait">
+              
+              <div className="relative w-full max-w-sm h-80 sm:h-96 flex items-center justify-center">
+                
+                {/* CONTINUOUSLY MOVING COFFEE BEANS IN SLIDER (Orbiting and floating around can) */}
+                <div className="absolute inset-0 pointer-events-none z-10 overflow-visible">
+                  {/* Slider Bean 1 - Top Left */}
                   <motion.img
+                    src="/Images/imgi_1_6aa806d43c8c7d3a6720d66a_b336a1245abc35e8ae16f923977bc902e7f02c191c2f9b574b2a04563ff8c07e.avif"
+                    alt="Coffee Bean"
+                    className="absolute top-[8%] left-[10%] w-9 sm:w-11 object-contain filter drop-shadow-xl"
+                    animate={{
+                      y: [-12, 12, -12],
+                      x: [-6, 6, -6],
+                      rotate: [0, 40, 0],
+                    }}
+                    transition={{
+                      duration: 5.2,
+                      repeat: Infinity,
+                      ease: 'easeInOut',
+                    }}
+                  />
+
+                  {/* Slider Bean 2 - Top Right */}
+                  <motion.img
+                    src="/Images/imgi_2_6ac7f5dfa46b35d512575e91_dc82ef76c7c3c16aebbe54542dee0e2d232fa25c2033b80424daa7a9f51b20c1.avif"
+                    alt="Coffee Bean"
+                    className="absolute top-[14%] right-[10%] w-10 sm:w-12 object-contain filter drop-shadow-2xl"
+                    animate={{
+                      y: [12, -14, 12],
+                      x: [8, -8, 8],
+                      rotate: [-20, 25, -20],
+                    }}
+                    transition={{
+                      duration: 6,
+                      repeat: Infinity,
+                      ease: 'easeInOut',
+                    }}
+                  />
+
+                  {/* Slider Bean 3 - Bottom Left */}
+                  <motion.img
+                    src="/Images/imgi_3_6ab09d8a6ec6f9a215d6a62b_7eba62d200b231f4fc4c7f4972f1419d824f83c8385d5d47453f2c6e4fa9509a.avif"
+                    alt="Coffee Bean"
+                    className="absolute bottom-[16%] left-[8%] w-8 sm:w-10 object-contain filter drop-shadow-lg"
+                    animate={{
+                      y: [-10, 10, -10],
+                      x: [-8, 6, -8],
+                      rotate: [15, -25, 15],
+                    }}
+                    transition={{
+                      duration: 6.8,
+                      repeat: Infinity,
+                      ease: 'easeInOut',
+                    }}
+                  />
+
+                  {/* Slider Bean 4 - Bottom Right */}
+                  <motion.img
+                    src="/Images/imgi_4_6aa709e834a002fe681a8926_099ba3b9e73b0bd730cbee159ba46c0dbf491d081fcf3078769b0336db39addf.avif"
+                    alt="Coffee Bean"
+                    className="absolute bottom-[12%] right-[12%] w-9 sm:w-11 object-contain filter drop-shadow-xl"
+                    animate={{
+                      y: [14, -12, 14],
+                      x: [-6, 6, -6],
+                      rotate: [-30, 20, -30],
+                    }}
+                    transition={{
+                      duration: 5.6,
+                      repeat: Infinity,
+                      ease: 'easeInOut',
+                    }}
+                  />
+                </div>
+
+                {/* CONTINUOUSLY MOVING SINGLE CAN (Floating smoothly with perpetual physics) */}
+                <motion.div
+                  className="relative z-20 flex items-center justify-center w-full h-full"
+                  animate={{
+                    y: [-12, 12, -12],
+                    rotate: [-8, -3, -8],
+                    scale: [1, 1.018, 1],
+                  }}
+                  transition={{
+                    duration: 5.5,
+                    repeat: Infinity,
+                    ease: 'easeInOut',
+                  }}
+                >
+                  <img
                     key={`slider-img-${currentProduct.id}`}
                     src={currentProduct.main_image}
                     alt={currentProduct.name}
-                    initial={{ opacity: 0, scale: 0.88, rotate: -6, y: 15 }}
-                    animate={{
-                      opacity: 1,
-                      scale: 1,
-                      rotate: [-6, -2, -6],
-                      y: [-10, 10, -10],
-                    }}
-                    exit={{ opacity: 0, scale: 0.88, rotate: 6, y: -15 }}
-                    transition={{
-                      opacity: { duration: 0.35 },
-                      scale: { duration: 0.4 },
-                      y: { duration: 4.5, repeat: Infinity, ease: 'easeInOut' },
-                      rotate: { duration: 4.5, repeat: Infinity, ease: 'easeInOut' },
-                    }}
-                    className="max-h-full max-w-full object-contain filter drop-shadow-[0_25px_40px_rgba(0,0,0,0.9)]"
+                    className="max-h-full max-w-full object-contain filter drop-shadow-[0_25px_45px_rgba(0,0,0,0.9)] hover:scale-105 transition-transform duration-500"
                   />
-                </AnimatePresence>
+                </motion.div>
               </div>
 
               {/* CENTERED THUMBNAIL SELECTORS BELOW CAN */}
@@ -116,7 +188,7 @@ export default function ProductSlider() {
                     }}
                     className={`relative w-14 h-16 sm:w-16 sm:h-20 rounded-2xl p-1.5 transition-all duration-300 flex items-center justify-center ${
                       currentIndex === idx
-                        ? 'border-2 border-white ring-2 ring-white/30 scale-105 shadow-xl'
+                        ? 'border-2 border-white ring-2 ring-white/40 scale-105 shadow-xl'
                         : 'border border-[#333] opacity-60 hover:opacity-100 hover:scale-102'
                     }`}
                     style={{ backgroundColor: item.thumbBg || '#181818' }}

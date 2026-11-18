@@ -27,10 +27,10 @@ export const products = [
     sugar: "0 g",
     badge: "Best Seller",
     accent_color: "#E58A2B",
-    main_image: "/Images/imgi_7_6a59cfecf451b1e790b0b036_original.avif",
+    main_image: "/Images/dialed-original-black-transparent.png",
     hover_image: "/Images/imgi_21_6a3646bd99c333882d4e488f_bg1.avif",
     gallery: [
-      "/Images/imgi_7_6a59cfecf451b1e790b0b036_original.avif",
+      "/Images/dialed-original-black-transparent.png",
       "/Images/imgi_21_6a3646bd99c333882d4e488f_bg1.avif",
       "/Images/imgi_6_6a20149bf19ddee74555105e_dialed-product-slider-img-placeholder.webp"
     ],
@@ -91,10 +91,10 @@ export const products = [
     sugar: "0 g",
     badge: "Customer Favorite",
     accent_color: "#C5A059",
-    main_image: "/Images/imgi_9_6a59cfc5f451b1e790b0a5cd_toasted.avif",
+    main_image: "/Images/dialed-toasted-vanilla-transparent.png",
     hover_image: "/Images/imgi_10_6a366939efe357a4490a8d54_product_toastedvanilla_1 2.avif",
     gallery: [
-      "/Images/imgi_9_6a59cfc5f451b1e790b0a5cd_toasted.avif",
+      "/Images/dialed-toasted-vanilla-transparent.png",
       "/Images/imgi_10_6a366939efe357a4490a8d54_product_toastedvanilla_1 2.avif",
       "/Images/imgi_8_6a36687c5ad0303f4af4e422_product_toastedvanilla_1 3.avif",
       "/Images/imgi_16_6a364734de862949473662ea_vanilla3.png"
@@ -157,10 +157,10 @@ export const products = [
     sugar: "1 g",
     badge: "Nootropic Boost",
     accent_color: "#A05A2C",
-    main_image: "/Images/imgi_11_6a59cf293033b753ebd58a3f_smooth-motcha.avif",
+    main_image: "/Images/dialed-smooth-mocha-transparent.png",
     hover_image: "/Images/imgi_12_6a59fab2042d71dd2939f910_smooth-hover.png",
     gallery: [
-      "/Images/imgi_11_6a59cf293033b753ebd58a3f_smooth-motcha.avif",
+      "/Images/dialed-smooth-mocha-transparent.png",
       "/Images/imgi_12_6a59fab2042d71dd2939f910_smooth-hover.png",
       "/Images/imgi_20_6a3646fee2381aba2938109e_bg2.avif"
     ],
@@ -222,10 +222,10 @@ export const products = [
     sugar: "0 - 1 g",
     badge: "Most Popular",
     accent_color: "#D94A38",
-    main_image: "/Images/imgi_13_6a59fa53723a3f07e3de9691_variery-new.avif",
+    main_image: "/Images/dialed-variety-pack-transparent.png",
     hover_image: "/Images/imgi_14_6a59fa88723a3f07e3debb19_variery hover.avif",
     gallery: [
-      "/Images/imgi_13_6a59fa53723a3f07e3de9691_variery-new.avif",
+      "/Images/dialed-variety-pack-transparent.png",
       "/Images/imgi_14_6a59fa88723a3f07e3debb19_variery hover.avif",
       "/Images/imgi_19_6a36475ee2381aba29381a6f_bg3.avif"
     ],
