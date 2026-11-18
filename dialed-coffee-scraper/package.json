@@ -1,0 +1,26 @@
+{
+  "name": "dialed-coffee-scraper",
+  "version": "1.0.0",
+  "description": "Educational Playwright scraper and data extraction pipeline for Dialed Coffee",
+  "main": "scraper.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node scraper.mjs",
+    "crawl": "node scraper.mjs",
+    "test": "echo \"Ready to crawl\" && exit 0"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0"
+  },
+  "keywords": [
+    "playwright",
+    "web-scraping",
+    "dialed-coffee",
+    "ecommerce",
+    "json",
+    "csv",
+    "mongodb"
+  ],
+  "author": "Ahmad Khan",
+  "license": "MIT"
+}

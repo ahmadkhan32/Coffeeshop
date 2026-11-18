@@ -1,0 +1,22 @@
+{
+  "crawl_timestamp": "2026-11-18T07:45:00.000Z",
+  "base_url": "https://www.dialedcoffee.com",
+  "crawler_engine": "Playwright Chromium Headless",
+  "confirmed_public_urls": 10,
+  "pages_discovered": 10,
+  "products_extracted": 4,
+  "product_listing_pages": 1,
+  "product_detail_pages": 4,
+  "duplicate_products": 0,
+  "failed_requests": 0,
+  "missing_fields": 0,
+  "currency": "USD",
+  "output_files": [
+    "output/pages.json",
+    "output/products.json",
+    "output/products.csv",
+    "output/failed-urls.json",
+    "output/robots.txt",
+    "output/summary.json"
+  ]
+}

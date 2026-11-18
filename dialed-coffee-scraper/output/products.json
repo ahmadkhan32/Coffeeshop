@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Original Black",
+    "category": "Cold Brew Coffee",
+    "description": "Bold, smooth single-origin Colombian cold brew crafted for peak cognitive output. Enhanced with Cognizin Citicoline and adaptogens to promote laser focus and zero post-caffeine crash.",
+    "listing_price": 45.99,
+    "detail_price": 44.99,
+    "currency": "USD",
+    "rating": 4.8,
+    "review_count": 1682,
+    "pack_size": "12 Pack",
+    "volume": "355 ml",
+    "ingredients": [
+      "Purified Water",
+      "Colombian Specialty Arabica Coffee",
+      "Citicoline (Cognizin)",
+      "Rhodiola Rosea Root Extract",
+      "Ashwagandha Extract (KSM-66)",
+      "Natural Flavor"
+    ],
+    "product_url": "https://www.dialedcoffee.com/products/dialed-original-black",
+    "image_urls": [
+      "/Images/imgi_7_6a59cfecf451b1e790b0b036_original.avif",
+      "/Images/imgi_21_6a3646bd99c333882d4e488f_bg1.avif"
+    ],
+    "source_page": "https://www.dialedcoffee.com/products/dialed-original-black"
+  },
+  {
+    "name": "Toasted Vanilla",
+    "category": "Cold Brew Coffee",
+    "description": "Silky Madagascar vanilla bean seamlessly blended with cold-extracted Colombian coffee. Infused with L-Theanine to smooth the caffeine spike for flow-state calm and prolonged attention.",
+    "listing_price": 45.99,
+    "detail_price": 44.99,
+    "currency": "USD",
+    "rating": 4.9,
+    "review_count": 1420,
+    "pack_size": "12 Pack",
+    "volume": "355 ml",
+    "ingredients": [
+      "Purified Water",
+      "Colombian Specialty Arabica Coffee",
+      "Natural Madagascar Vanilla Extract",
+      "Citicoline (Cognizin)",
+      "Suntheanine L-Theanine",
+      "Rhodiola Rosea Extract",
+      "Monk Fruit Extract"
+    ],
+    "product_url": "https://www.dialedcoffee.com/products/dialed-toasted-vanilla",
+    "image_urls": [
+      "/Images/imgi_9_6a59cfc5f451b1e790b0a5cd_toasted.avif",
+      "/Images/imgi_10_6a366939efe357a4490a8d54_product_toastedvanilla_1 2.avif"
+    ],
+    "source_page": "https://www.dialedcoffee.com/products/dialed-toasted-vanilla"
+  },
+  {
+    "name": "Smooth Mocha",
+    "category": "Cold Brew Coffee",
+    "description": "Rich, antioxidant-dense organic cocoa folded into slow-brewed Colombian coffee. Fortified with organic Lion's Mane mushroom dual extract to support neurogenesis and memory retention.",
+    "listing_price": 45.99,
+    "detail_price": 44.99,
+    "currency": "USD",
+    "rating": 4.8,
+    "review_count": 1195,
+    "pack_size": "12 Pack",
+    "volume": "355 ml",
+    "ingredients": [
+      "Purified Water",
+      "Colombian Specialty Arabica Coffee",
+      "Organic Dutch Cocoa Powder",
+      "Lion's Mane Mushroom Extract",
+      "Citicoline (Cognizin)",
+      "Ashwagandha Root Extract",
+      "Organic Stevia Leaf"
+    ],
+    "product_url": "https://www.dialedcoffee.com/products/smooth-mocha",
+    "image_urls": [
+      "/Images/imgi_11_6a59cf293033b753ebd58a3f_smooth-motcha.avif",
+      "/Images/imgi_12_6a59fab2042d71dd2939f910_smooth-hover.png"
+    ],
+    "source_page": "https://www.dialedcoffee.com/products/smooth-mocha"
+  },
+  {
+    "name": "Variety Pack",
+    "category": "Cold Brew Coffee Bundle",
+    "description": "The ultimate Dialed sampler. Discover your daily ritual with 4 cans of robust Original Black, 4 cans of aromatic Toasted Vanilla, and 4 cans of decadent Smooth Mocha.",
+    "listing_price": 47.99,
+    "detail_price": 47.99,
+    "currency": "USD",
+    "rating": 4.9,
+    "review_count": 2450,
+    "pack_size": "12 Pack (4 of each)",
+    "volume": "355 ml per can",
+    "ingredients": [
+      "Includes 4x Original Black",
+      "Includes 4x Toasted Vanilla",
+      "Includes 4x Smooth Mocha",
+      "Citicoline (Cognizin)",
+      "Adaptogens"
+    ],
+    "product_url": "https://www.dialedcoffee.com/products/dialed-variety-pack",
+    "image_urls": [
+      "/Images/imgi_13_6a59fa53723a3f07e3de9691_variery-new.avif",
+      "/Images/imgi_14_6a59fa88723a3f07e3debb19_variery hover.avif"
+    ],
+    "source_page": "https://www.dialedcoffee.com/products/dialed-variety-pack"
+  }
+]

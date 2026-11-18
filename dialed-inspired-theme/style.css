@@ -1,0 +1,33 @@
+/*
+Theme Name: Dialed Inspired Theme
+Theme URI: https://github.com/ahmadkhan32/Coffeeshop
+Author: Ahmad Khan
+Author URI: https://github.com/ahmadkhan32
+Description: High-performance ecommerce WordPress theme inspired by Dialed Coffee with WooCommerce integration and Headless REST API support.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.7
+Requires PHP: 8.0
+License: GNU General Public License v2 or later
+Text Domain: dialed-theme
+Tags: ecommerce, woocommerce, dark-theme, responsive, block-patterns
+*/
+
+:root {
+  --dialed-black: #0D0D0D;
+  --dialed-dark: #141414;
+  --dialed-card: #181818;
+  --dialed-border: #262626;
+  --dialed-accent: #E58A2B;
+  --dialed-gold: #C5A059;
+  --dialed-text: #F3F3F3;
+  --dialed-muted: #8E8E93;
+}
+
+body {
+  background-color: var(--dialed-black);
+  color: var(--dialed-text);
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+}

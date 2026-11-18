@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "page": "Homepage",
+    "url": "https://www.dialedcoffee.com/",
+    "type": "Landing",
+    "title": "Dialed Performance Cold Brew Coffee | Functional Caffeine",
+    "status": 200,
+    "description": "Functional Colombian cold brew infused with nootropics and adaptogens for sustained focus and zero crash."
+  },
+  {
+    "id": 2,
+    "page": "Shop",
+    "url": "https://www.dialedcoffee.com/products",
+    "type": "Listing",
+    "title": "Products – Dialed",
+    "status": 200,
+    "description": "Browse our 12-pack cold brew coffee lineups: Original Black, Toasted Vanilla, Smooth Mocha, and the Variety Pack."
+  },
+  {
+    "id": 3,
+    "page": "Original Black",
+    "url": "https://www.dialedcoffee.com/products/dialed-original-black",
+    "type": "Detail",
+    "title": "Dialed Original Black Cold Brew Coffee – Dialed",
+    "status": 200,
+    "description": "Pure Colombian cold brew coffee with Citicoline. 200mg caffeine, 0g sugar."
+  },
+  {
+    "id": 4,
+    "page": "Toasted Vanilla",
+    "url": "https://www.dialedcoffee.com/products/dialed-toasted-vanilla",
+    "type": "Detail",
+    "title": "Dialed Toasted Vanilla Cold Brew Coffee – Dialed",
+    "status": 200,
+    "description": "Madagascar vanilla infused Colombian cold brew with L-Theanine and Citicoline."
+  },
+  {
+    "id": 5,
+    "page": "Smooth Mocha",
+    "url": "https://www.dialedcoffee.com/products/smooth-mocha",
+    "type": "Detail",
+    "title": "Smooth Mocha Cold Brew Coffee – Dialed",
+    "status": 200,
+    "description": "Organic cocoa meets Colombian cold brew with organic Lion's Mane mushroom extract."
+  },
+  {
+    "id": 6,
+    "page": "Variety Pack",
+    "url": "https://www.dialedcoffee.com/products/dialed-variety-pack",
+    "type": "Detail",
+    "title": "Dialed Variety Pack Cold Brew Coffee – Dialed",
+    "status": 200,
+    "description": "12-pack sampler featuring 4 cans of Original Black, 4 cans of Toasted Vanilla, and 4 cans of Smooth Mocha."
+  },
+  {
+    "id": 7,
+    "page": "For Teams",
+    "url": "https://www.dialedcoffee.com/dialed-for-teams",
+    "type": "Business landing",
+    "title": "Bulk Office Coffee Delivery – Dialed for Teams",
+    "status": 200,
+    "description": "Corporate office coffee delivery, fridge restocking, and wholesale discount program."
+  },
+  {
+    "id": 8,
+    "page": "Contact",
+    "url": "https://www.dialedcoffee.com/contact",
+    "type": "Contact",
+    "title": "Contact Customer Support – Dialed",
+    "status": 200,
+    "description": "Get in touch with customer care, dietary inquiry, and order status support."
+  },
+  {
+    "id": 9,
+    "page": "FAQ",
+    "url": "https://www.dialedcoffee.com/faq",
+    "type": "Information",
+    "title": "Frequently Asked Questions – Dialed",
+    "status": 200,
+    "description": "Learn about our ingredients, roasting methods, shelf life, and subscription management."
+  },
+  {
+    "id": 10,
+    "page": "Delivery & Returns",
+    "url": "https://www.dialedcoffee.com/delivery-returns",
+    "type": "Policy",
+    "title": "Delivery & Returns Policy – Dialed",
+    "status": 200,
+    "description": "Shipping schedules, ambient temperature stability, and our 30-day money-back taste guarantee."
+  }
+]

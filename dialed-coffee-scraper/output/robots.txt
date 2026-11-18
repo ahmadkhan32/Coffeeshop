@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Allow: /products
+Allow: /products/*
+Allow: /dialed-for-teams
+Allow: /faq
+Allow: /contact
+Allow: /delivery-returns
+Disallow: /account
+Disallow: /account/*
+Disallow: /cart
+Disallow: /checkout
+Disallow: /*?*checkout*
+
+Sitemap: https://www.dialedcoffee.com/sitemap.xml
